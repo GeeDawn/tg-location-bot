@@ -26,7 +26,7 @@
 
 ```python
 # 配置文件
-BOT_TOKEN = '您的Telegram Bot Token'
+BOT_TOKEN = '您的Telegram Bot Token'   # Token   可以在这里获取@BotFather
 ADMIN_IDS = '123456789'  # 管理员ID列表   可以在这里获取@userinfobot
 ```
 
