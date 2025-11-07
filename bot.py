@@ -295,7 +295,7 @@ def main():
     application.add_handler(MessageHandler(filters.LOCATION, handle_location))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
     
-    # 启动机器人
+    # 启动
     print("🤖 全局位置验证机器人已启动...")
     application.run_polling()
 

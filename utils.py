@@ -24,3 +24,4 @@ def format_location_message(latitude: float, longitude: float, is_in_range: bool
         message += f"• 距离中心点: {distance:.2f} 米\n"
     
     return message
+    

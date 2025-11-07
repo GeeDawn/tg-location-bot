@@ -10,7 +10,7 @@ class Database:
     def init_db(self):
         """初始化数据库"""
         with sqlite3.connect(self.db_path) as conn:
-            # 全局位置设置 - 只有一个全局设置
+            # 全局位置设置
             conn.execute('''
                 CREATE TABLE IF NOT EXISTS global_location_settings (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
